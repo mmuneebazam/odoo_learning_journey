@@ -66,3 +66,66 @@ That will be my next milestone in this journey.
 Today's biggest lesson was that setting up a development environment is itself a learning process. Every error teaches something new, and solving installation issues helps build confidence for future development.
 
 Looking forward to the next step of running Odoo successfully! 🚀
+
+
+# Day 2 – Configuring the Odoo Development Environment ⚙️
+
+After successfully installing the required software (Python and PostgreSQL), I moved on to configuring the actual Odoo development environment.
+
+## Step 1: Installed PyCharm
+
+I installed **PyCharm Community Edition**, which will be my primary IDE for Odoo development. It provides excellent support for Python projects, virtual environments, and debugging.
+
+## Step 2: Imported the Odoo 17 Source Code
+
+After downloading and extracting the **Odoo 17 source code**, I opened the extracted project folder in PyCharm to begin configuring the development environment.
+
+## Step 3: Configured the Python Interpreter
+
+The next step was connecting the project with the correct Python interpreter. This ensures that Odoo runs using the appropriate Python installation and all required packages are installed in the correct environment.
+
+## Step 4: Created the Odoo Configuration File
+
+I created an `odoo.conf` file and configured it with my local PostgreSQL database credentials, including:
+
+- Database host
+- Database port
+- Database username
+- Database password
+- Addons path
+- Admin password
+- XML-RPC port
+
+This configuration allows Odoo to communicate with PostgreSQL and locate its core addons.
+
+## Step 5: First Attempt to Run Odoo
+
+With the project configured, I launched Odoo for the first time from PyCharm.
+
+As expected for a fresh development setup, the application did not start successfully on the first attempt. Several dependency and configuration-related errors appeared during startup.
+
+## Current Progress
+
+Instead of reinstalling everything, I started debugging each issue individually by:
+
+- Reading the error logs carefully.
+- Identifying the root cause of each error.
+- Installing missing dependencies where required.
+- Correcting configuration mistakes.
+- Testing the application after every fix.
+
+This process is helping me understand how the Odoo framework works internally instead of simply following installation instructions.
+
+## Learning
+
+One of the biggest lessons so far is that setting up a development environment is not just about installing software—it is also about understanding how different components work together.
+
+Every error is an opportunity to learn something new, whether it's related to Python, PostgreSQL, project configuration, or Odoo itself.
+
+## Next Goal
+
+The next milestone is to resolve all remaining startup errors and successfully launch the Odoo 17 development server.
+
+Once Odoo starts successfully, I'll begin exploring its architecture and move towards custom module development.
+
+
