@@ -129,3 +129,14 @@ The next milestone is to resolve all remaining startup errors and successfully l
 Once Odoo starts successfully, I'll begin exploring its architecture and move towards custom module development.
 
 
+## Challenges Faced
+
+While setting up the development environment, I encountered multiple errors. Every time I resolved one issue, another one appeared. At times, the setup process became frustrating because the application still wouldn't run successfully despite following the required steps.
+
+However, instead of giving up, I continued troubleshooting each problem one by one. I carefully analyzed the error messages, searched for possible solutions, referred to documentation and community resources, and kept experimenting until I could understand the root cause.
+
+Although the setup is not yet fully complete, this experience has taught me an important lesson: software development is not just about writing code—it's also about persistence, problem-solving, and learning from every challenge.
+
+I will continue working through the remaining issues until the Odoo development environment is fully configured and ready for development.
+
+
